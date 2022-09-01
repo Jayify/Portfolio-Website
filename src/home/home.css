@@ -1,0 +1,74 @@
+
+/* ---- NAV BAR ---- */
+nav {
+    margin-right:10px; 
+	margin-left: auto;
+}
+
+nav ul{
+	padding-right:10px;
+	padding-bottom: 5px;
+}
+
+nav li{
+	display:inline;
+	padding-left:30px;
+	padding-right:10px;
+	font-size:24px;
+}
+
+/* ---- BODY ELEMENTS ---- */
+header{
+	display: block;
+	font-size: 30px;
+	background-color: lightgray;
+	display: flex;
+	align-items: center;
+}
+
+article{
+	margin-top: 20px;
+	padding: 20px;
+	text-align: justify;
+}
+
+/* ---- FOOTER ---- */
+footer{
+	display: flex;
+	align-items: center;
+	height: 40px;
+	font-size: 14px;
+	background-color: lightgray;
+	margin-top: 20px;
+}
+
+footer p {
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+/* ---- OTHER ELEMENTS ---- */
+h1{
+	font-size:30px;
+	text-align:left;
+}
+h2{
+	font-size:50px;
+	text-align:left;
+	margin-left:100px;
+}
+h3{
+	font-size:20px;
+	text-align:center;
+}
+
+/* ---- ID ELEMENTS ---- */
+#nav_image{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+
+#intro{
+	grid-area:intro;
+}

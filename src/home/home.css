@@ -1,3 +1,11 @@
+#wrapper {
+	margin: -8px;
+}
+
+body {
+	color: white;
+}
+
 
 /* ---- NAV BAR ---- */
 nav {
@@ -21,15 +29,15 @@ nav li{
 header{
 	display: block;
 	font-size: 30px;
-	background-color: lightgray;
 	display: flex;
 	align-items: center;
 }
 
 article{
-	margin-top: 20px;
 	padding: 20px;
 	text-align: justify;
+	background-color: #00a2ff; 
+	color: black; 
 }
 
 /* ---- FOOTER ---- */
@@ -53,9 +61,8 @@ h1{
 	text-align:left;
 }
 h2{
-	font-size:50px;
+	font-size:60px;
 	text-align:left;
-	margin-left:100px;
 }
 h3{
 	font-size:20px;
@@ -70,5 +77,38 @@ h3{
 }
 
 #intro{
-	grid-area:intro;
+	margin-left:100px;
+}
+/* set default if google font not available */
+.intro_1 {
+	font-family: 'Alumni Sans', sans-serif; 
+	letter-spacing: 10px;
+	font-size: 62px;
+}
+.intro_2 {
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 56px;
+}
+
+.body_text {
+	display: block;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	font-family: 'Monaco', sans-serif;
+}
+
+.arrow{
+	background-color: white;
+	width: 100px;
+	height: 200px;
+}
+
+.body_section {
+	display: flex;
+	width: 50vw;
+	height: 200px;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
 }

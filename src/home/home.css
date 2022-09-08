@@ -13,6 +13,17 @@ colours:
 	min-width: 300px;
 }
 
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 768px) { 
+	
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
 
 /* ---- NAV BAR ---- */
 nav {
@@ -88,7 +99,9 @@ h1{
 	text-align: left;
 }
 h2{
-	font-size: 6rem;
+	font-size: 10vh;
+	font-size: calc((100% + 1vw + 1vh)*1.7); 
+	/* responsive text: https://codepen.io/JacobLett/pen/jQWEoY */
 	text-align: left;
 }
 h3{
@@ -122,11 +135,11 @@ h3{
 .intro_1 {
 	font-family: 'Alumni Sans', sans-serif; 
 	letter-spacing: 10px;
-	font-size: 6.8rem;
+	font-size: calc((100% + 1vw + 1vh)); 
 }
 .intro_2 {
 	font-family: 'IBM Plex Mono', monospace;
-	font-size: 5.3rem;
+	font-size: calc((80% + 1vw + 1vh)); 
 }
 
 .body_text {

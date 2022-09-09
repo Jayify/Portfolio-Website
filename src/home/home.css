@@ -1,8 +1,9 @@
 /* 
 colours:
 - light blue: #00a2ff
+- faded blue: #6ecaff
 - white: #ffffff
-- black: #131315
+- grey black: #131315
 - black: black
 */
 
@@ -67,17 +68,17 @@ nav li{
 }
 
 
-a:link{
+nav a:link{
 	font-family: arial;
 	text-decoration: none;
 	font-size: 18px;
 	color: white;
 	
 }
-a:visited{
+nav a:visited{
 	color: white;
 }
-a:active{
+nav a:active{
 	color: #00a2ff;
 }
 
@@ -170,6 +171,8 @@ h1{
 	/* + programmer */
 	font-family: 'IBM Plex Mono', monospace;
 	font-size: calc((1vw + 1vh)*2.97); 
+	position: relative;
+	top: -4px;
 }
 #subtitle_text {
 	font-size: calc((1vw + 1vh)*0.85); 
@@ -180,31 +183,61 @@ h1{
 #logo_panel {
 	display: flex;
 	align-items: center; 
+	padding-right: 4vw;
 }
 #logo_image{
-	height: 400px;
+	height: 60vh;
 	margin-left: auto;
-}
-
-.body_text {
-	display: block;
-	background-color: black;
-	color: white;
-	padding: 20px;
-	font-family: 'Monaco', sans-serif;
-}
-
-.arrow{
-	background-color: white;
-	width: 100px;
-	height: 200px;
+	margin-right: auto;
+	position: relative;
+	top: -8px;
 }
 
 .body_section {
 	display: flex;
-	width: 50vw;
-	height: 200px;
+	width: 60vw;
 	margin: 20px;
 	margin-left: auto;
 	margin-right: auto;
+}
+.body_text {
+	display: block;
+	background-color: black;
+	color: white;
+	padding: 16px 20px 0px 20px;
+	font-family: 'Monaco', sans-serif;
+	font-size: 19px;
+	width: 100%;
+}
+.body_section h3 {
+	font-family: 'IBM Plex Mono', monospace; 
+	font-size: 24px;
+	font-weight: 700;
+}
+.arrow{
+	display : flex;
+  	align-items : center;
+	justify-content: center;
+	background-color: white;
+	width: 120px;
+	font-size: 14vh;
+}
+.arrow_text{
+	font-size: 14vh;
+	padding-bottom: 9px;
+	line-height: 60%;
+}
+.arrow a:link{
+	text-decoration: none;
+	color: #00a2ff;
+	
+}
+.arrow a:visited{
+	color: #00a2ff;
+}
+.arrow a:active{
+	color: #6ecaff;
+}
+.arrow a:hover{
+	font-size: 16vh;
 }

@@ -19,8 +19,9 @@ colours:
 @media (max-width: 768px) {
 	#wrapper{
 		margin: 0px;
-		background-color: black;
-		min-width: 300px;
+	}
+	#logo_panel {
+		display: none !important;
 	}
  }
 /* Medium devices (tablets, 768px and up) */

@@ -14,6 +14,7 @@ colours:
 	min-width: 300px;
 }
 
+/* ---- MEDIA QUERIES ---- */
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 768px) {
 	#wrapper{
@@ -22,7 +23,6 @@ colours:
 		min-width: 300px;
 	}
  }
-
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) 
 { 
@@ -32,7 +32,6 @@ colours:
 		min-width: 300px;
 	}
  }
-
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 	#wrapper{
@@ -41,7 +40,6 @@ colours:
 		min-width: 300px;
 	}
 }
-
 
 /* ---- NAV BAR ---- */
 nav {
@@ -60,14 +58,13 @@ nav li{
 	padding-right:10px;
 	font-size:24px;
 }
-
 #nav_image{
     width: 60px;
     height: 60px;
     margin: 20px;
 }
 
-
+/* links */
 nav a:link{
 	font-family: arial;
 	text-decoration: none;
@@ -98,10 +95,24 @@ article {
 	padding: 20px;
 	text-align: justify;
 	background-color: #00a2ff; 
-	color: black; 
+	color: black;
+	/* background-gradient https://codepen.io/P1N2O/pen/pyBNzX */
+	background: linear-gradient(-45deg, #7be1ff, #002a7b);
+	background-size: 400% 400%;
+	animation: gradient 12s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
-/* ---- FOOTER ---- */
 footer{
 	display: flex;
 	align-items: center;
@@ -120,12 +131,6 @@ h1{
 	text-align: left;
 }
 
-/* ---- ID ELEMENTS ---- */
-#nav_image{
-    width: 60px;
-    height: 60px;
-    margin: 20px;
-}
 
 /* ---- TITLE ELEMENTS ---- */
 #top_section {
@@ -145,7 +150,6 @@ h1{
 	display: flex; 
 	color: white;
 	height: 80vh;
-
 }
 
 #title_list {
@@ -180,6 +184,7 @@ h1{
 	color: darkgray;
 }
 
+/* logo side panel */
 #logo_panel {
 	display: flex;
 	align-items: center; 
@@ -193,6 +198,7 @@ h1{
 	top: -8px;
 }
 
+/* body text section */
 .body_section {
 	display: flex;
 	width: 60vw;

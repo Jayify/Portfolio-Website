@@ -91,13 +91,14 @@ header{
 
 body {
 	color: white;
+	overflow-x: hidden;
 }
 
 article {
 	padding: 20px;
 	text-align: justify;
-	background-color: #00a2ff; 
 	color: black;
+	background-color: #00a2ff; /* default background */
 	/* background-gradient https://codepen.io/P1N2O/pen/pyBNzX */
 	background: linear-gradient(-45deg, #7be1ff, #002a7b);
 	background-size: 400% 400%;

@@ -1,0 +1,256 @@
+/* 
+colours:
+- light blue: #00a2ff
+- faded blue: #6ecaff
+- white: #ffffff
+- grey black: #131315
+- black: black
+*/
+
+/* base wrapper */
+#wrapper{
+	margin: 0px;
+	background-color: black;
+	min-width: 300px;
+}
+
+/* ---- MEDIA QUERIES ---- */
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 768px) {
+	#wrapper{
+		margin: 0px;
+	}
+	#logo_panel {
+		display: none !important;
+	}
+ }
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) 
+{ 
+	#wrapper{
+		margin: 0px;
+		background-color: black;
+		min-width: 300px;
+	}
+ }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	#wrapper{
+		margin: 0px;
+		background-color: black;
+		min-width: 300px;
+	}
+}
+
+/* ---- NAV BAR ---- */
+/*
+nav {
+    margin-right:10px; 
+	margin-left: auto;
+}
+nav ul{
+	padding-right:10px;
+	padding-bottom: 5px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+nav li{
+	display:inline;
+	padding-left:30px;
+	padding-right:10px;
+	font-size:24px;
+}
+#nav_image{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+*/
+/* links */
+/*
+nav a:link{
+	font-family: arial;
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	
+}
+nav a:visited{
+	color: white;
+}
+nav a:active{
+	color: #00a2ff;
+}
+*/
+
+/* ---- BODY ELEMENTS ---- */
+/*
+header{
+	display: flex;
+	align-items: center;
+	font-family: 'Monaco', sans-serif;
+	color: white;
+}
+*/
+body {
+	color: white;
+}
+
+article {
+	padding: 20px;
+	text-align: justify;
+	background-color: #00a2ff; 
+	color: black;
+	/* background-gradient https://codepen.io/P1N2O/pen/pyBNzX */
+	background: linear-gradient(-45deg, #7be1ff, #002a7b);
+	background-size: 400% 400%;
+	animation: gradient 12s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+footer{
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	background-color: #131315;
+	color: white;
+	padding: 15px 0px 5px 0px;
+}
+footer p {
+	text-align: center;
+}
+
+/* ---- OTHER ELEMENTS ---- */
+h1{
+	font-size: 30px;
+	text-align: left;
+}
+
+
+/* ---- TITLE ELEMENTS ---- */
+#top_section {
+	background-color: #131315;
+	background-image: url("../images/tile.jpg");
+	background-repeat: repeat;
+	background-size: 40%;
+	height: 100vh;
+	margin: 0px;
+	padding: 0px;
+}
+#intro{
+	/* margin: 0px 10vw 0px 10vw; */
+	margin: 0px;
+	align-items: center;
+	font-family: 'Monaco', sans-serif;
+	display: flex; 
+	color: white;
+	height: 80vh;
+}
+
+#title_list {
+	list-style-type: none;
+	line-height: calc(6vh + 6vh);
+	font-size: 40px;
+	padding-left: 0px;
+}
+
+.title_text {
+	font-size: calc((1vw + 1vh)*3); 
+	/* responsive text: https://codepen.io/JacobLett/pen/jQWEoY */
+	text-align: left;
+}
+/* set default if google font not available ----------------++++++++++++++++++- */
+#intro_text_1 {
+	/* website developer */
+	font-family: 'Alumni Sans', sans-serif; 
+	letter-spacing: calc((1vw + 1vh)*0.5);
+	font-size: calc((1vw + 1vh)*3.6); 
+}
+#intro_text_2 {
+	/* + programmer */
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: calc((1vw + 1vh)*2.97); 
+	position: relative;
+	top: -4px;
+}
+#subtitle_text {
+	font-size: calc((1vw + 1vh)*0.85); 
+	line-height: 300%;
+	color: darkgray;
+}
+
+/* logo side panel */
+#logo_panel {
+	display: flex;
+	align-items: center; 
+	padding-right: 4vw;
+}
+#logo_image{
+	height: 60vh;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -8px;
+}
+
+/* body text section */
+.body_section {
+	display: flex;
+	width: 60vw;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.body_text {
+	display: block;
+	background-color: black;
+	color: white;
+	padding: 16px 20px 0px 20px;
+	font-family: 'Monaco', sans-serif;
+	font-size: 19px;
+	width: 100%;
+}
+.body_section h3 {
+	font-family: 'IBM Plex Mono', monospace; 
+	font-size: 24px;
+	font-weight: 700;
+}
+.arrow{
+	display : flex;
+  	align-items : center;
+	justify-content: center;
+	background-color: white;
+	width: 120px;
+	font-size: 14vh;
+}
+.arrow_text{
+	font-size: 14vh;
+	padding-bottom: 9px;
+	line-height: 60%;
+}
+.arrow a:link{
+	text-decoration: none;
+	color: #00a2ff;
+	
+}
+.arrow a:visited{
+	color: #00a2ff;
+}
+.arrow a:active{
+	color: #6ecaff;
+}
+.arrow a:hover{
+	font-size: 16vh;
+}
+
+

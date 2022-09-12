@@ -21,9 +21,24 @@
 	<body>
 		<div id = "wrapper">	
             <div id="top_section">
-				<header>
-					<img src="../images/pfp.png" alt="Profile Image" id="nav_image">
-					<h1 style="margin-top: auto; margin-bottom: auto;">Jayden Houghton</h1>
+				<header style="display: flex;"> <!-- only applies flex when styled inline -->
+					<div id="topbar">
+						<img src="../images/pfp.png" alt="Profile Image" id="nav_image">
+						<h1>Jayden Houghton</h1>
+					</div>
+
+					<!-- horizontal nav bar for larger screens -->
+					<nav>
+						<ul>
+							<li> <a href = "../home/home.html" style="color: #00a2ff;">Home</a>
+							<li> <a href = "../about/about.html">About</a>
+							<li> <a href = "../skills/skills.html">Skills</a>
+							<li> <a href = "../projects/projects.html">Projects</a>
+							<li> <a href = "../contact/contact.html">Contact</a>
+						</ul>
+					</nav>
+
+					<!-- hamburger nav menu for small screens -->
 					<div id="menuToggle">
 						<input type="checkbox" />
 						<span></span>

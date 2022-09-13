@@ -18,12 +18,11 @@ colours:
 #wrapper{
 	margin: 0px;
 	background-color: black;
-	min-width: 320px;
 }
 
 /* ---- MEDIA QUERIES ---- */
-/* Small devices (landscape phones, 576px and up) */
-@media (max-width: 768px) {
+/* Extra small devices (phones) */
+@media (max-width: 400px) {
 	#logo_panel {
 		display: none !important;
 	}
@@ -43,7 +42,72 @@ colours:
 	intro {
 		font-size: 50px;
 	}
+	#heading_1 {
+		display: none !important;
+	}
+	#heading_2 {
+		display: flex !important;
+	}
 
+	/* title text */
+	.title_text {
+		font-size: calc((1vw + 1vh)*3); 
+		/* responsive text: https://codepen.io/JacobLett/pen/jQWEoY */
+	}
+	#intro_text_1 {
+		letter-spacing: calc((1vw + 1vh)*0.5);
+		font-size: calc((1vw + 1vh)*3.5); 
+	}
+	#intro_text_2 {
+		font-size: calc((1vw + 1vh)*2.9); 
+		position: relative;
+	}
+	#subtitle_text {
+		font-size: calc((0.7vw + 1vh)); 
+		line-height: 200%;
+	}
+	#title_list {
+		line-height: calc(4.2vw + 6vh);
+	}
+	
+	.body_section {
+		margin: 20px;
+		width: 100%;
+	}
+	.body_text {
+		font-size: 15px;
+	}
+}
+
+/* Small devices (phones) */
+@media (min-width: 400px) {
+	#logo_panel {
+		display: none !important;
+	}
+
+	/* set nav type */
+	nav {
+		display: none !important;
+	}
+	#menuToggle {
+		display: block !important;
+	}
+
+	/* change sizings */
+	#topbar h1 {
+		font-size: 34px;
+	}
+	intro {
+		font-size: 50px;
+	}
+	#heading_1 {
+		display: flex !important;
+	}
+	#heading_2 {
+		display: none !important;
+	}
+
+	/* title text */
 	.title_text {
 		font-size: calc((1vw + 1vh)*4.4); 
 		/* responsive text: https://codepen.io/JacobLett/pen/jQWEoY */
@@ -65,16 +129,21 @@ colours:
 	}
 	
 	.body_section {
-		width: 80vw;
+		margin: 20px;
+		width: 100%;
 	}
 	.body_text {
-		font-size: 17px;
+		font-size: 16px;
 	}
 }
  
-/* Medium devices (tablets, 768px and up) */
+/* Medium devices (tablets) */
 @media (min-width: 768px) 
 { 
+	#logo_panel {
+		display: flex !important;
+	}
+
 	/* set nav type */
 	nav {
 		display: flex !important;
@@ -91,7 +160,14 @@ colours:
 		padding-left: 18px;
 		font-size: 2px;
 	}
+	#heading_1 {
+		display: flex !important;
+	}
+	#heading_2 {
+		display: none !important;
+	}
 
+	/* title text */
 	.title_text {
 		font-size: calc((1vw + 1vh)*3); 
 		/* responsive text: https://codepen.io/JacobLett/pen/jQWEoY */
@@ -110,7 +186,6 @@ colours:
 	}
 	#title_list {
 		line-height: calc(4vw + 6vh);
-		padding-left: 0px;
 	}
 
 	.body_section {
@@ -121,12 +196,10 @@ colours:
 	}
  }
 
-/* Large devices (desktops, 992px and up) */
+/* Large devices (desktops) */
 @media (min-width: 992px) {
-	#wrapper{
-		margin: 0px;
-		background-color: black;
-		min-width: 300px;
+	#logo_panel {
+		display: flex !important;
 	}
 
 	/* set nav type */
@@ -134,6 +207,12 @@ colours:
 		display: flex !important;
 	}
 	#menuToggle {
+		display: none !important;
+	}
+	#heading_1 {
+		display: flex !important;
+	}
+	#heading_2 {
 		display: none !important;
 	}
 
@@ -149,6 +228,7 @@ colours:
 		line-height: calc(6vw + 6vh);
 	}
 
+	/* title text */
 	.title_text {
 		font-size: calc((1vw + 1vh)*3); 
 		/* responsive text: https://codepen.io/JacobLett/pen/jQWEoY */
@@ -242,12 +322,8 @@ nav li{
 	background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
 	opacity 0.55s ease;
 }
-#menuToggle span:first-child {
-	transform-origin: 0% 0%;
-}
-#menuToggle span:nth-last-child(2) {
-	transform-origin: 0% 100%;
-}
+#menuToggle span:first-child { transform-origin: 0% 0%; }
+#menuToggle span:nth-last-child(2) { transform-origin: 0% 100%; }
 #menuToggle input:checked~span {
 	opacity: 1;
 	transform: rotate(45deg) translate(-2px, -1px);
@@ -278,8 +354,8 @@ nav li{
 	-webkit-font-smoothing: antialiased;
 	transform-origin: 0% 0%;
 	transform: translate(100%, 0);
-
 	transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+	overflow-x: hidden;
 }
 #menu li {
 	padding: 10px 0;
@@ -322,6 +398,8 @@ a:active{
 #title_list {
 	list-style-type: none;
 	padding-left: 0px;
+	width: 100%; 
+	margin-left: 9vw;
 }
 
 .title_text {
@@ -366,6 +444,10 @@ header{
 
 body {
 	color: white;
+	overflow-x: hidden;
+	position: relative
+}
+html {
 	overflow-x: hidden;
 }
 
@@ -423,6 +505,9 @@ footer p {
 	font-size: 24px;
 	font-weight: 700;
 }
+.body_section p { 
+	font-size: 16px;
+}
 .arrow{
 	display : flex;
   	align-items : center;
@@ -431,7 +516,6 @@ footer p {
 	width: 120px;
 }
 .arrow_text{
-	padding-bottom: 9px;
 	line-height: 60%;
 }
 .arrow a:link{

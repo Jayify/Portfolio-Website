@@ -349,7 +349,7 @@ a:active{
 	padding-right: 4vw;
 }
 #logo_image{
-	height: 60vh;
+	height: calc(15vw + 30vh);
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;

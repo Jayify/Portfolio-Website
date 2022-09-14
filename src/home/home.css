@@ -73,9 +73,22 @@ colours:
 	.body_section {
 		margin: 20px;
 		width: 100%;
+		flex-direction: column;
 	}
 	.body_text {
 		font-size: 14px;
+	}
+	.arrow {
+		width: 100%;
+	}
+	.arrow a:link{
+		font-size: 8vh;
+	}
+	.arrow_text{
+		padding: 10px;
+	}
+	.arrow a:hover{
+		font-size: 8vh;
 	}
 }
 
@@ -131,9 +144,19 @@ colours:
 	.body_section {
 		margin: 20px;
 		width: 100%;
+		flex-direction: row;
 	}
 	.body_text {
 		font-size: 16px;
+	}
+	.arrow {
+		width: 120px;
+	}
+	.arrow a:link{
+		font-size: 14vh;
+	}
+	.arrow a:hover{
+		font-size: 16vh;
 	}
 }
  
@@ -190,9 +213,19 @@ colours:
 
 	.body_section {
 		width: 70vw;
+		flex-direction: row;
 	}
 	.body_text {
 		font-size: 19px;
+	}
+	.arrow {
+		width: 120px;
+	}
+	.arrow a:link{
+		font-size: 14vh;
+	}
+	.arrow a:hover{
+		font-size: 16vh;
 	}
  }
 
@@ -251,9 +284,19 @@ colours:
 
 	.body_section {
 		width: 60vw;
+		flex-direction: row;
 	}
 	.body_text {
 		font-size: 19px;
+	}
+	.arrow {
+		width: 120px;
+	}
+	.arrow a:link{
+		font-size: 14vh;
+	}
+	.arrow a:hover{
+		font-size: 16vh;
 	}
 }
 
@@ -514,23 +557,20 @@ footer p {
   	align-items : center;
 	justify-content: center;
 	background-color: white;
-	width: 120px;
+}
+.arrow_text{
+	line-height: 60%;
 }
 .arrow_text{
 	line-height: 60%;
 }
 .arrow a:link{
-	font-size: 14vh;
 	text-decoration: none;
 	color: #00a2ff;
-	
 }
 .arrow a:visited{
 	color: #00a2ff;
 }
 .arrow a:active{
 	color: #6ecaff;
-}
-.arrow a:hover{
-	font-size: 16vh;
 }

@@ -71,11 +71,12 @@ colours:
 	}
 	
 	.body_section {
+		display: flex;
 		margin: 20px;
 		width: 100%;
 		flex-direction: column;
 	}
-	.body_text {
+	.body_text p {
 		font-size: 14px;
 	}
 	.arrow {
@@ -85,7 +86,8 @@ colours:
 		font-size: 8vh;
 	}
 	.arrow_text{
-		padding: 10px;
+		padding: 12px;
+		padding-bottom: 14px;
 	}
 	.arrow a:hover{
 		font-size: 8vh;
@@ -548,9 +550,6 @@ footer p {
 	font-family: 'IBM Plex Mono', monospace; 
 	font-size: 24px;
 	font-weight: 700;
-}
-.body_section p { 
-	font-size: 16px;
 }
 .arrow{
 	display : flex;

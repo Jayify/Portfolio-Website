@@ -51,19 +51,19 @@ colours:
 
 	/* title text */
 	.title_text {
-		font-size: calc((1vw + 1vh)*3); 
+		font-size: calc((1vw + 1vh)*3.2); 
 		/* responsive text: https://codepen.io/JacobLett/pen/jQWEoY */
 	}
 	#intro_text_1 {
 		letter-spacing: calc((1vw + 1vh)*0.5);
-		font-size: calc((1vw + 1vh)*3.5); 
+		font-size: calc((1vw + 1vh)*4.15); 
 	}
 	#intro_text_2 {
-		font-size: calc((1vw + 1vh)*2.9); 
+		font-size: calc((1vw + 1vh)*3.3); 
 		position: relative;
 	}
 	#subtitle_text {
-		font-size: calc((0.7vw + 1vh)); 
+		font-size: calc((0.75vw + 1vh)); 
 		line-height: 200%;
 	}
 	#title_list {
@@ -73,9 +73,22 @@ colours:
 	.body_section {
 		margin: 20px;
 		width: 100%;
+		flex-direction: column;
 	}
 	.body_text {
-		font-size: 15px;
+		font-size: 14px;
+	}
+	.arrow {
+		width: 100%;
+	}
+	.arrow a:link{
+		font-size: 8vh;
+	}
+	.arrow_text{
+		padding: 10px;
+	}
+	.arrow a:hover{
+		font-size: 8vh;
 	}
 }
 
@@ -131,9 +144,19 @@ colours:
 	.body_section {
 		margin: 20px;
 		width: 100%;
+		flex-direction: row;
 	}
 	.body_text {
 		font-size: 16px;
+	}
+	.arrow {
+		width: 120px;
+	}
+	.arrow a:link{
+		font-size: 14vh;
+	}
+	.arrow a:hover{
+		font-size: 16vh;
 	}
 }
  
@@ -190,9 +213,19 @@ colours:
 
 	.body_section {
 		width: 70vw;
+		flex-direction: row;
 	}
 	.body_text {
 		font-size: 19px;
+	}
+	.arrow {
+		width: 120px;
+	}
+	.arrow a:link{
+		font-size: 14vh;
+	}
+	.arrow a:hover{
+		font-size: 16vh;
 	}
  }
 
@@ -251,9 +284,19 @@ colours:
 
 	.body_section {
 		width: 60vw;
+		flex-direction: row;
 	}
 	.body_text {
 		font-size: 19px;
+	}
+	.arrow {
+		width: 120px;
+	}
+	.arrow a:link{
+		font-size: 14vh;
+	}
+	.arrow a:hover{
+		font-size: 16vh;
 	}
 }
 
@@ -344,7 +387,7 @@ nav li{
 
 #menu {
 	position: absolute;
-	width: 300px;
+	width: 220px;
 	margin: -100px 0 0 0;
 	padding: 50px;
 	padding-top: 125px;
@@ -386,13 +429,14 @@ a:active{
 	margin: 0px;
 	padding: 0px;
 }
-#intro{
+#intro {
 	margin: 0px;
 	align-items: center;
 	font-family: 'Monaco', sans-serif;
 	display: flex; 
 	color: white;
 	height: 80vh;
+	padding-bottom: 10vh
 }
 
 #title_list {
@@ -513,23 +557,17 @@ footer p {
   	align-items : center;
 	justify-content: center;
 	background-color: white;
-	width: 120px;
 }
 .arrow_text{
 	line-height: 60%;
 }
 .arrow a:link{
-	font-size: 14vh;
 	text-decoration: none;
 	color: #00a2ff;
-	
 }
 .arrow a:visited{
 	color: #00a2ff;
 }
 .arrow a:active{
 	color: #6ecaff;
-}
-.arrow a:hover{
-	font-size: 16vh;
 }

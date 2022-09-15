@@ -243,6 +243,9 @@ header{
 	align-items: center;
 	font-family: 'Monaco', sans-serif;
 	color: white;
+	background-image: url("../images/tile.jpg");
+	background-repeat: repeat;
+	background-size: 40%;
 }
 
 body {
@@ -314,7 +317,7 @@ footer p {
 	padding: 20px;
 	padding-right: 40px;
 }
-#img_container {
+#panel {
 	display: block;
 	padding: 20px;
 }

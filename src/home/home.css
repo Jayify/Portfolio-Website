@@ -335,8 +335,8 @@ nav li{
 #menuToggle {
 	display: block;
 	position: absolute;
-	top: 42px;
-	right: 42px;
+	top: 39px;
+	right: 39px;
 	z-index: 1;
 	-webkit-user-select: none;
 	user-select: none;

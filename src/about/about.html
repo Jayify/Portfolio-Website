@@ -7,39 +7,111 @@
 		<meta name = "keyword" content = "portfolio, programmer, coding, coder">
 		<meta name = "author" content = "Jayden Houghton">
 		<link rel = "stylesheet" type = "text/css" href = "about.css">
-		
+		<!-- get fonts from google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<style></style>
 	</head>
 
 
 	<body>
 		<div id = "wrapper">	
-			<header>
-				<img src="../pfp.png" alt="Profile Image" id="nav_image">
-				
-				<h1>Jayden Houghton's Portfolio</h1>
-				<nav class="nav">
-                    <ul>
-                        <li> <a href = "../home/home.html">Home</a>
-                        <li> <a href = "../about/about.html">About</a>
-                        <li> <a href = "../skills/skills.html">Skills</a>
-                        <li> <a href = "../projects/projects.html">Projects</a>
-                        <li> <a href = "../contact/contact.html">Contact</a>
-                    </ul>
-                </nav>
+			<header style="display: flex;"> <!-- only applies flex when styled inline -->
+				<div id="topbar">
+					<img src="../images/pfp.png" alt="Profile Image" id="nav_image">
+					<h1 id="heading_1">Jayden Houghton</h1>
+					<h1 id="heading_2">JH</h1>
+				</div>
+
+				<!-- horizontal nav bar for larger screens -->
+				<nav>
+					<ul>
+						<li> <a href = "../home/home.html" style="color: #00a2ff;">Home</a>
+						<li> <a href = "../about/about.html">About</a>
+						<li> <a href = "#../skills/skills.html">Skills</a>
+						<li> <a href = "#../projects/projects.html">Projects</a>
+						<li> <a href = "#../contact/contact.html">Contact</a>
+					</ul>
+				</nav>
+
+				<!-- hamburger nav menu for small screens -->
+				<div id="menuToggle">
+					<input type="checkbox" />
+					<span></span>
+					<span></span>
+					<span></span>
+					<ul id="menu">
+						<li> <a href = "../home/home.html" style="color: #00a2ff;">Home</a>
+						<li> <a href = "../about/about.html">About</a>
+						<li> <a href = "#../skills/skills.html">Skills</a>
+						<li> <a href = "#../projects/projects.html">Projects</a>
+						<li> <a href = "#../contact/contact.html">Contact</a>
+					</ul>
+				</div>
 			</header>
 			
 			<article>
-                <h2>about page</h1>
+				<div id="body_section">
+					<div id="intro">
+						<h3>
+							Jayden Houghton is a first year IT student making his way into the innovative 
+							and creative tech industry.
+							<div id="line"></div>
+						</h3>
+					</div>
+					<div id="text_container">
+						<p>
+							Jayden is an 18 year old student based in Nelson, New Zealand. He is a 1st year 
+							student at the Nelson Marlborough Institute of Technology (NMIT), 
+							studying a Bachelor of Information Technology. His plan is to major in system's 
+							development, for a career in web or software development. 
+							<br><br>
+							Jayden has been passionate about all things tech since he was a child, and has been
+							learning to code since he was in primary school. He has also dabbled in electronics, 
+							game development, machine learning and VR.
+							<br><br>							
+							He has a strong interest in web and program development, which is the career path he
+							wishes to pursue. He is currently learning HTML, CSS, JavaScript, SQL, Git and Python,
+							but has also experimented with basic C# and PHP.
+							<br><br>
+							While Jayden's main focus is completing his degree, he has been working on a few projects, including this 
+							website as a portfolio. He is also working on a few other projects, including an SQL database, a game with
+							Unity Engine, discord bots, building his own version of BASIC, learning advanced concepts with Python programs
+							and experimenting with VR.<br><br>
+							He is currently looking for a part time job or apprenticeship in the tech industry around study, and is open to
+							any opportunities.
+							<br><br>
+							As well as technology, Jayden is interested in music and gaming. He plays the drum kit and bass 
+							guitar. He also enjoys tramping and mountain biking. He has been a keen gamer since
+							he was young, and would like to develop games in the future. He has also achieved his 
+							Queen Scout Award, Gold Duke of Edinburgh Award, Gold Student Volunteer Army Award, Endorsed with 
+							Excellence throughout NCEA level 1 to 3, and is a published author.
+						</p>
+					</div>
+					<div id="img_container">
+						<img src="../images/jayden.png" alt="Profile Image" id="profile_image">
+					</div>
+					<div id="contact">
+						<div id="contact_box">
+							<h3>Get In Touch<br></h3>
+							<a href = "#../contact/contact.html">&#10095;</a>
+						</div>
+					</div>
+				</div>       
 			</article>
 
 			<footer>
 				<p>
-                    Jayden Houghton
-                    Nelson, New Zealand
+                    Jayden Houghton<br>
+                    Nelson, New Zealand<br>
                     jayden.hou12@gmail.com
                 </p>
 			</footer>
 		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	</body>
 </html>

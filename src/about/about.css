@@ -151,8 +151,8 @@ nav li{
 #menuToggle {
 	display: block;
 	position: absolute;
-	top: 42px;
-	right: 42px;
+	top: 39px;
+	right: 39px;
 	z-index: 1;
 	-webkit-user-select: none;
 	user-select: none;
@@ -251,14 +251,14 @@ header{
 body {
 	color: white;
 	overflow-x: hidden;
-	position: relative
+	position: relative;
 }
 html {
 	overflow-x: hidden;
 }
 
 article {
-	padding: 20px;
+	padding: 40px;
 	text-align: justify;
 	color: black;
 	background-color: #00a2ff; /* default background */
@@ -331,12 +331,12 @@ footer p {
 #contact {
 	display: flex;
 	flex-direction: column;
-	margin-top: 20vh;
+	position: relative;
+	margin-top: 20%;
 	text-align: center;
 	background-color: #00a2ff;
 	margin-left: auto;
 	margin-right: auto;
-	position: relative;
     width: 45%;
 	border-radius: 8%;
 }

@@ -168,7 +168,7 @@ colours:
 	#logo_panel {
 		display: flex !important;
 	}
-
+  
 	/* set nav type */
 	nav {
 		display: flex !important;
@@ -451,7 +451,6 @@ a:active{
 .title_text {
 	text-align: left;
 }
-
 #intro_text_1 {
 	/* website developer */
 	font-family: 'Alumni Sans', sans-serif; 

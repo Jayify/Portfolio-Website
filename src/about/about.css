@@ -192,17 +192,19 @@ colours:
 		font-size: 24px;
 	}
 	#body_section {
-		width: 80vw;
+		width: 70vw;
 	}
 
 	/* grid areas */
 	#intro {
 		grid-column: 1 / 2;
 		grid-row: 1 / 1;
+		padding-right: 5vw;
 	}
 	#text_container {
 		grid-column: 1 / 2;
 		grid-row: 2 / 6;
+		padding-right: 5vw;
 	}
 	#img_container {
 		grid-column: 3 / 4;
@@ -214,7 +216,7 @@ colours:
 	}
 
 	#profile_image {
-		width: 30vw;
+		width: 20vw;
 	}
 }
 
@@ -416,7 +418,7 @@ footer p {
 	font-size: 25px;
 }
 #line {
-	margin-top: 24px;
+	margin-top: 20px;
 	width: 100%; 
 	border: 2px solid #00a2ff;
 }

@@ -17,6 +17,7 @@ colours:
 /* base wrapper */
 #wrapper{
 	margin: 0px;
+	min-width: 320px;
 	background-color: black;
 }
 
@@ -43,6 +44,9 @@ colours:
 	}
 	#body_section {
 		width: 100%;
+	}
+	#intro h3{
+		font-size: 20px;
 	}
 
 	/* grid areas */
@@ -88,6 +92,9 @@ colours:
 	#topbar h1 {
 		font-size: 34px;
 	}
+	#body_section {
+		width: 100%;
+	}
 
 	/* grid areas */
 	#intro {
@@ -106,12 +113,12 @@ colours:
 		grid-column: 1 / 2;
 		grid-row: 4 / 4;
 	}
-	#body_section {
-		width: 100%;
-	}
 
 	#profile_image {
 		width: 40vw;
+	}
+	#intro h3{
+		font-size: 23px;
 	}
 }
  
@@ -142,6 +149,9 @@ colours:
 	}
 	#body_section {
 		width: 80vw;
+	}
+	#intro h3{
+		font-size: 25px;
 	}
 
 	/* grid areas */
@@ -193,6 +203,9 @@ colours:
 	}
 	#body_section {
 		width: 70vw;
+	}
+	#intro h3{
+		font-size: 25px;
 	}
 
 	/* grid areas */
@@ -415,7 +428,6 @@ footer p {
 #intro h3{
 	color: white;
 	font-family: 'Roboto Slab', serif;
-	font-size: 25px;
 }
 #line {
 	margin-top: 20px;

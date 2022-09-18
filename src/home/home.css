@@ -23,7 +23,7 @@ colours:
 
 /* ---- MEDIA QUERIES ---- */
 /* Extra small devices (phones) */
-@media (max-width: 400px) {
+@media (max-width: 460px) {
 	#logo_panel {
 		display: none !important;
 	}
@@ -96,7 +96,7 @@ colours:
 }
 
 /* Small devices (phones) */
-@media (min-width: 400px) {
+@media (min-width: 460px) {
 	#logo_panel {
 		display: none !important;
 	}

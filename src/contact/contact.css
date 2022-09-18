@@ -45,6 +45,10 @@ colours:
 	#body_section {
 		width: 100%;
 	}
+
+	#options_container {
+		flex-direction: column;
+	}
 }
 
 /* Small devices (phones) */
@@ -69,6 +73,10 @@ colours:
 	}
 	#body_section {
 		width: 100%;
+	}
+
+	#options_container {
+		flex-direction: column;
 	}
 }
  
@@ -100,6 +108,10 @@ colours:
 	#body_section {
 		width: 80vw;
 	}
+
+	#options_container {
+		flex-direction: row;
+	}
  }
 
 /* Large devices (desktops) */
@@ -128,6 +140,10 @@ colours:
 	}
 	#body_section {
 		width: 60vw;
+	}
+
+	#options_container {
+		flex-direction: row;
 	}
 }
 
@@ -311,3 +327,63 @@ footer p {
 	margin-right: auto;
 	padding: 20px;
 }
+#body_section h3 {
+	text-align: center;
+	padding-bottom: 20px;
+	color: white;
+	font-size: 28px;
+}
+#body_section p {
+	text-align: center;
+	color: white;
+}
+#line {
+	margin-top: 30px;
+	width: 100%; 
+	border: 2px solid #00a2ff;
+	margin-bottom: 30px;
+}
+
+/* grid areas */
+#options_container {
+	display: flex;
+	color: white;
+	font-family: 'Monaco', sans-serif;
+	font-size: 15px;
+	justify-items: center;
+	gap: 50px 0px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.option {
+	display: flex;
+	flex-direction: column;
+	flex: 1 0 0;
+	align-items: center;
+}
+
+.logos {
+	color: white;
+}
+.option h4 {
+	color: #00a2ff;
+	font-size: 22px;
+	margin-top: 10px;
+}
+.option a:link {
+	color: white;
+	font-size: 17px;
+	text-decoration: underline;
+}
+.option a:visited {
+	color: white;
+}
+.option a:hover {
+	color: #6ecaff;
+}
+.option a:active {
+	color: #00a2ff;
+}
+

@@ -23,7 +23,7 @@ colours:
 
 /* ---- MEDIA QUERIES ---- */
 /* Extra small devices (phones) */
-@media (max-width: 400px) {
+@media (max-width: 460px) {
 	/* set nav type */
 	nav {
 		display: none !important;
@@ -73,7 +73,7 @@ colours:
 }
 
 /* Small devices (phones) */
-@media (min-width: 400px) {
+@media (min-width: 460px) {
 	/* set nav type */
 	nav {
 		display: none !important;
@@ -421,7 +421,7 @@ footer p {
 	display: block;
 	color: white;
 	font-family: 'Monaco', sans-serif;
-	font-size: 16px;
+	font-size: 15px;
 }
 
 /* body styles */

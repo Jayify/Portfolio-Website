@@ -307,11 +307,9 @@ footer p {
 /* ---- BODY CONTENT ELEMENTS ---- */
 #body_section {
 	background-color: #131315;
-	margin-left: auto;
-	margin-right: auto;
 	padding: 20px;
-	max-width: 1100px;
 	max-width: 1200px;
+	margin: 20px auto 20px auto;
 }
 
 #intro h3 {
@@ -324,12 +322,13 @@ footer p {
 	margin-top: 30px;
 	width: 100%; 
 	border: 2px solid #00a2ff;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 
 /* project card elements */
 #projects_container {
 	display: block;
+	padding-bottom: 20px;
 }
 
 .parent {

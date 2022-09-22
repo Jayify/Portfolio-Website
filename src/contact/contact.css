@@ -353,8 +353,14 @@ footer p {
 	text-align: center;
 	color: white;
 }
-#line {
+#line_1 {
 	margin-top: 30px;
+	width: 100%; 
+	border: 2px solid #00a2ff;
+	margin-bottom: 30px;
+}
+#line_2 {
+	margin-top: 15px;
 	width: 100%; 
 	border: 2px solid #00a2ff;
 	margin-bottom: 30px;
@@ -383,24 +389,30 @@ footer p {
 .logos {
 	color: white;
 }
-.option h4 {
+
+.option a:link h4 {
 	color: #00a2ff;
 	font-size: 22px;
 	margin-top: 10px;
+	text-decoration: none;
+	padding: 5px;
 }
-.option a:link {
+.option a:link p {
 	color: white;
 	font-size: 17px;
 	text-decoration: underline;
-}
-.option a:visited {
-	color: white;
 }
 .option a:hover {
 	color: #6ecaff;
 }
 .option a:active {
 	color: #00a2ff;
+}
+.option a:visited h4 {
+	color: #00a2ff;
+}
+.option a:visited p {
+	color: white;
 }
 
 iframe {
@@ -413,7 +425,6 @@ iframe {
 #location h3 {
 	color: white;
 	font-size: 28px;
-	margin-top: 10px;
 }
 #location p {
 	padding-bottom: 10px;

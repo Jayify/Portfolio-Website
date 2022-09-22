@@ -442,14 +442,17 @@ footer p {
 	border: 4px solid #00a2ff;
 }
 #contact_box {
-	display: block;
+	display: flex;
 	text-align: center;
 	background-color: #00a2ff;
 	width: 200px;
+	height: 170px;
+	flex-direction: column;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 8%;
 	border: 4px solid white;
+	gap: 64px;
 }
 #contact h3 {
 	color: #ffffff;
@@ -462,10 +465,14 @@ footer p {
 	font-size: 70px;
 	padding: 0px;
 	margin: -10px;
+	line-height: 0%;
 }
 #contact a:visited {
 	color: white;
 }
 #contact a:active {
 	color: #6ecaff;
+}
+#contact a:hover {
+	font-size: 80px;
 }

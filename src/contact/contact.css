@@ -385,11 +385,14 @@ footer p {
 	flex: 1 0 0;
 	align-items: center;
 }
-
-.logos {
+/* logo links */
+.option a:link i {
 	color: white;
 }
-
+.option a:hover i {
+	color: #00a2ff;
+}
+/* heading links */
 .option a:link h4 {
 	color: #00a2ff;
 	font-size: 22px;
@@ -397,22 +400,17 @@ footer p {
 	text-decoration: none;
 	padding: 5px;
 }
-.option a:link p {
-	color: white;
-	font-size: 17px;
-	text-decoration: underline;
-}
-.option a:hover {
-	color: #6ecaff;
-}
-.option a:active {
-	color: #00a2ff;
-}
 .option a:visited h4 {
 	color: #00a2ff;
 }
-.option a:visited p {
+/* paragraph links */
+.option a:link p {
 	color: white;
+	font-size: 17px;
+	text-decoration: none;
+}
+.option a:hover p {
+	text-decoration: underline;
 }
 
 iframe {

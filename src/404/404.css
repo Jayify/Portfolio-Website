@@ -8,9 +8,71 @@
   	background-size: auto;
 	color: white;
 	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 article {
 	display: block;
 }
 
+#text_1 {
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+    text-align: center;
+    animation: fadein_1 6s;
+	animation-fill-mode: forwards;
+}
+@keyframes fadein_1 {
+    0% { opacity:0; }
+    39% { opacity:0; }
+    40% { opacity:1; }
+	99% { opacity:1; }
+	100% { opacity:0; }
+}
+article h1 {
+	font-size: 10vw;
+}
+
+#text_2 {
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+    text-align: center;
+    animation: fadein_2 3s;
+	animation-delay: 6s;
+	animation-fill-mode: both;
+}
+@keyframes fadein_2 {
+	0% { opacity:0; }
+    1% { opacity:1; }
+	99% { opacity:1; }
+	100% { opacity:0; }
+}
+article h2 {
+	font-size: 7vw;
+}
+
+#text_3 {
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+    text-align: center;
+    animation: fadein_3 1s;
+	animation-delay: 9s;
+	animation-fill-mode: both;
+}
+@keyframes fadein_3 {
+    0% { opacity:0; }
+    1% { opacity:1; }
+    100% { opacity:1; }
+}
+article h3 {
+	font-size: 6vw;
+}

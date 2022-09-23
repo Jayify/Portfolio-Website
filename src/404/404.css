@@ -1,0 +1,13 @@
+/* base wrapper */
+#wrapper{
+	margin: 0px;
+	min-width: 320px;
+	background-color: black;
+	color: white;
+	height: 100vh;
+}
+
+article {
+	display: block;
+}
+

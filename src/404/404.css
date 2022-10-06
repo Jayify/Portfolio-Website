@@ -17,16 +17,16 @@ html {
 	padding: 0px;
 	opacity: 1;
 }
-
 body {
 	background-color: green;
 	margin: 0px;
 	padding: 0px;
 }
-
 article {
 	display: block;
 }
+
+/* generic text class */
 .text {
 	position: absolute;
     text-align: center;
@@ -39,7 +39,6 @@ article {
 #text_1 {
     animation: fadein_1 6s;
 	animation-fill-mode: forwards;
-	z-index: 1;
 }
 @keyframes fadein_1 {
     0% { opacity:0; }
@@ -56,7 +55,6 @@ h1 {
     animation: fadein_2 3s;
 	animation-delay: 6s;
 	animation-fill-mode: both;
-	z-index: 2;
 }
 @keyframes fadein_2 {
 	0% { opacity:0; }
@@ -72,7 +70,6 @@ h2 {
     animation: fadein_3 1s;
 	animation-delay: 9s;
 	animation-fill-mode: both;
-	z-index: 3;
 }
 @keyframes fadein_3 {
     0% { opacity:0; }

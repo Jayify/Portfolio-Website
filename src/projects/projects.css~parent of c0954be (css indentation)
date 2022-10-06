@@ -345,7 +345,8 @@ footer p {
 }
 .card:hover {
 	box-shadow: 0px 0px 8px 2px #00a2ff;
-}
+  }
+  
   
 .img {
 	display: block;

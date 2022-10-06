@@ -1,8 +1,8 @@
 /* 
 CSS file structure: 
 1. Wrapper + media queries
-2. Title + intro
-3. Body main elements
+2. Nav
+3. Main body elements
 4. Body section
 
 colours:
@@ -247,6 +247,10 @@ a:visited{
 	color: white;
 }
 a:active{
+	color: #00a2ff;
+}
+
+#current_page {
 	color: #00a2ff;
 }
 

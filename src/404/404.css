@@ -1,31 +1,44 @@
-/* base wrapper */
-#wrapper{
+#wrapper {
 	margin: 0px;
-	min-width: 320px;
-	background-color: black;
-	background-image: url("../images/error.gif");
-	background-repeat: no-repeat;
-  	background-size: auto;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
 	color: white;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+	box-sizing: border-box;
+}
+
+html {
+	background-image: url("../images/error.gif");
+  	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%; 
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: green;
+	margin: 0px;
+	padding: 0px;
 }
 
 article {
 	display: block;
 }
 
+
 #text_1 {
 	position: absolute;
-	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
     text-align: center;
     animation: fadein_1 6s;
 	animation-fill-mode: forwards;
+	background-color: red;
+	z-index: 1;
+	/*
+	top: 50vh;
+  	left: 50%;
+  	transform: translate(-50%, -50%); */
 }
 @keyframes fadein_1 {
     0% { opacity:0; }
@@ -34,19 +47,22 @@ article {
 	99% { opacity:1; }
 	100% { opacity:0; }
 }
-article h1 {
-	font-size: 10vw;
+h1 {
+	font-size: 8vw;
 }
 
 #text_2 {
 	position: absolute;
-	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
     text-align: center;
     animation: fadein_2 3s;
 	animation-delay: 6s;
 	animation-fill-mode: both;
+	background-color: red;
+	z-index: 2;
+	/*
+	top: 50vh;
+  	left: 50%;
+  	transform: translate(-50%, -50%); */
 }
 @keyframes fadein_2 {
 	0% { opacity:0; }
@@ -54,25 +70,28 @@ article h1 {
 	99% { opacity:1; }
 	100% { opacity:0; }
 }
-article h2 {
+h2 {
 	font-size: 7vw;
 }
 
 #text_3 {
 	position: absolute;
-	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
     text-align: center;
     animation: fadein_3 1s;
 	animation-delay: 9s;
 	animation-fill-mode: both;
+	background-color: red;
+	z-index: 3;
+	/*
+	top: 50vh;
+  	left: 50%;
+  	transform: translate(-50%, -50%); */
 }
 @keyframes fadein_3 {
     0% { opacity:0; }
     1% { opacity:1; }
     100% { opacity:1; }
 }
-article h3 {
+h3 {
 	font-size: 6vw;
 }

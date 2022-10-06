@@ -352,6 +352,10 @@ a:active{
 	color: #00a2ff;
 }
 
+#current_page {
+	color: #00a2ff;
+}
+
 /* ---- BODY ELEMENTS ---- */
 header{
 	display: flex;

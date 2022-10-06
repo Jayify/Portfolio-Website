@@ -422,6 +422,10 @@ a:active{
 	color: #00a2ff;
 }
 
+#current_page {
+	color: #00a2ff;
+}
+
 /* ---- TITLE ELEMENTS ---- */
 #top_section {
 	background-color: #131315;
@@ -480,13 +484,12 @@ a:active{
 }
 
 /* ---- BODY ELEMENTS ---- */
-header{
+header {
 	display: flex;
 	align-items: center;
 	font-family: 'Monaco', sans-serif;
 	color: white;
 }
-
 body {
 	color: white;
 	overflow-x: hidden;
@@ -521,7 +524,7 @@ article {
 	}
 }
 
-footer{
+footer {
 	display: flex;
 	align-items: center;
 	font-size: 14px;
@@ -553,22 +556,22 @@ footer p {
 	font-size: 24px;
 	font-weight: 700;
 }
-.arrow{
+.arrow {
 	display : flex;
   	align-items : center;
 	justify-content: center;
 	background-color: white;
 }
-.arrow_text{
+.arrow_text {
 	line-height: 60%;
 }
-.arrow a:link{
+.arrow a:link {
 	text-decoration: none;
 	color: #00a2ff;
 }
-.arrow a:visited{
+.arrow a:visited {
 	color: #00a2ff;
 }
-.arrow a:active{
+.arrow a:active {
 	color: #6ecaff;
 }

@@ -1,0 +1,98 @@
+#wrapper {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	color: white;
+	box-sizing: border-box;
+}
+
+html {
+	background-image: url("../images/error.gif");
+  	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%; 
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+	opacity: 1;
+}
+body {
+	background-color: green;
+	margin: 0px;
+	padding: 0px;
+}
+article {
+	display: block;
+}
+
+/* generic text class */
+.text {
+	position: absolute;
+    text-align: center;
+	top: 50vh;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-shadow: 0px 0px 15px black;
+}
+
+#text_1 {
+    animation: fadein_1 6s;
+	animation-fill-mode: forwards;
+}
+@keyframes fadein_1 {
+    0% { opacity:0; }
+    39% { opacity:0; }
+    40% { opacity:1; }
+	99% { opacity:1; }
+	100% { opacity:0; }
+}
+h1 {
+	font-size: 8vw;
+}
+
+#text_2 {
+    animation: fadein_2 3s;
+	animation-delay: 6s;
+	animation-fill-mode: both;
+}
+@keyframes fadein_2 {
+	0% { opacity:0; }
+    1% { opacity:1; }
+	99% { opacity:1; }
+	100% { opacity:0; }
+}
+h2 {
+	font-size: 7vw;
+}
+
+#text_3 {
+    animation: fadein_3 1s;
+	animation-delay: 9s;
+	animation-fill-mode: both;
+}
+@keyframes fadein_3 {
+    0% { opacity:0; }
+    1% { opacity:1; }
+    100% { opacity:1; }
+}
+h3 {
+	font-size: 5vw;
+	padding: 0px;
+	margin: 0px;
+}
+p {
+	position: relative; 
+	font-size: 1.8vw;
+}
+
+p a:link {
+	padding: 0px;
+	color: white;
+}
+p a:visited {
+	color: white;
+}
+p a:active {
+	color: lightgray;
+}

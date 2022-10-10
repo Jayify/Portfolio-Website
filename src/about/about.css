@@ -15,7 +15,7 @@ colours:
 
 
 /* base wrapper */
-#wrapper{
+#wrapper {
 	margin: 0px;
 	min-width: 320px;
 	background-color: black;
@@ -117,7 +117,7 @@ colours:
 	#profile_image {
 		width: 40vw;
 	}
-	#intro h3{
+	#intro h3 {
 		font-size: 23px;
 	}
 }
@@ -150,7 +150,7 @@ colours:
 	#body_section {
 		width: 80vw;
 	}
-	#intro h3{
+	#intro h3 {
 		font-size: 25px;
 	}
 
@@ -197,14 +197,14 @@ colours:
 	#topbar h1 {
 		font-size: 34px;
 	}
-	nav li{
+	nav li {
 		padding-left: 30px;
 		font-size: 24px;
 	}
 	#body_section {
 		width: 70vw;
 	}
-	#intro h3{
+	#intro h3 {
 		font-size: 25px;
 	}
 
@@ -339,25 +339,25 @@ nav li{
 }
 
 /* link styles */
-a:link{
+a:link {
 	font-family: arial;
 	text-decoration: none;
 	font-size: 18px;
 	color: white;
 }
-a:visited{
+a:visited {
 	color: white;
 }
-a:active{
+a:active {
 	color: #00a2ff;
 }
 
-#current_page {
-	color: #00a2ff;
+.current_page {
+	color: #00a2ff !important; /* !important overrides a:visited */
 }
 
 /* ---- BODY ELEMENTS ---- */
-header{
+header {
 	display: flex;
 	align-items: center;
 	font-family: 'Monaco', sans-serif;
@@ -430,7 +430,7 @@ footer p {
 }
 
 /* body styles */
-#intro h3{
+#intro h3 {
 	color: white;
 	font-family: 'Roboto Slab', serif;
 }

@@ -15,7 +15,7 @@ colours:
 
 
 /* base wrapper */
-#wrapper{
+#wrapper {
 	margin: 0px;
 	min-width: 320px;
 	background-color: black;
@@ -109,7 +109,7 @@ colours:
 	#topbar h1 {
 		font-size: 28px;
 	}
-	nav li{
+	nav li {
 		padding-left: 18px;
 		font-size: 2px;
 	}
@@ -146,7 +146,7 @@ colours:
 	#topbar h1 {
 		font-size: 34px;
 	}
-	nav li{
+	nav li {
 		padding-left: 30px;
 		font-size: 24px;
 	}
@@ -183,12 +183,12 @@ nav {
     margin-right:20px; 
 	margin-left: auto;
 }
-nav ul{
+nav ul {
 	padding-right:10px;
 	margin-top: auto;
 	margin-bottom: auto;
 }
-nav li{
+nav li {
 	display:inline;
 }
 
@@ -269,25 +269,25 @@ nav li{
 }
 
 /* link styles */
-a:link{
+a:link {
 	font-family: arial;
 	text-decoration: none;
 	font-size: 18px;
 	color: white;
 }
-a:visited{
+a:visited {
 	color: white;
 }
-a:active{
+a:active {
 	color: #00a2ff;
 }
 
-#current_page {
-	color: #00a2ff;
+.current_page {
+	color: #00a2ff !important; /* !important overrides a:visited */
 }
 
 /* ---- BODY ELEMENTS ---- */
-header{
+header {
 	display: flex;
 	align-items: center;
 	font-family: 'Monaco', sans-serif;

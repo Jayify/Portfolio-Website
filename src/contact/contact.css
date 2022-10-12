@@ -53,8 +53,10 @@ colours:
 	iframe {
 		width: 100%;
 	}
+
+	/* contact logos */
 	.option a:link i {
-		font-size: 100px;
+		font-size: 66px;
 	}
 }
 
@@ -89,8 +91,10 @@ colours:
 	iframe {
 		width: 90%;
 	}
+
+	/* contact logos */
 	.option a:link i {
-		font-size: 100px;
+		font-size: 66px;
 	}
 }
  
@@ -126,8 +130,9 @@ colours:
 	#options_container {
 		flex-direction: row;
 	}
+	/* contact logos */
 	.option a:link i {
-		font-size: 140px;
+		font-size: 80px;
 	}
 
 	iframe {
@@ -166,8 +171,9 @@ colours:
 	#options_container {
 		flex-direction: row;
 	}
+	/* contact logos */
 	.option a:link i {
-		font-size: 140px;
+		font-size: 80px;
 	}
 
 	iframe {

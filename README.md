@@ -1,5 +1,7 @@
 # WEB503-A2-22
 Portfolio assessment two for WEB503 NMIT course.
+
+The website is currently live at -> https://jayden-htn.github.io/WEB503-A2-22/
 <br/><br/>
 
 
@@ -41,6 +43,7 @@ Prereleases:
  
 Releases:
 <ul>
-  <li>V1.0 - Initial full release</li>
-  <li>V1.1.x - Build custom 404 error page</li>
+  <li>V1.0.X - Initial full release</li>
+  <li>V1.1.X - Build custom 404 error page</li>
+  <li>V1.2.X - Minor changes and improvements</li>
 </ul>

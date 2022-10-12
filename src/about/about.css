@@ -393,7 +393,7 @@ html {
 }
 
 article {
-	padding: 40px;
+	padding: 20px;
 	text-align: justify;
 	color: black;
 	background-color: #00a2ff; /* default background */
@@ -430,9 +430,8 @@ footer p {
 /* ---- BODY CONTENT ELEMENTS ---- */
 #body_section {
 	background-color: #131315;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 30px;
+	margin: 20px auto 20px auto;
+	padding: 20px;
 	display: grid;
 	gap: 20px 10px;
 }

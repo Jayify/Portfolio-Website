@@ -53,6 +53,9 @@ colours:
 	iframe {
 		width: 100%;
 	}
+	.option a:link i {
+		font-size: 100px;
+	}
 }
 
 /* Small devices (phones) */
@@ -85,6 +88,9 @@ colours:
 
 	iframe {
 		width: 90%;
+	}
+	.option a:link i {
+		font-size: 100px;
 	}
 }
  
@@ -119,6 +125,9 @@ colours:
 
 	#options_container {
 		flex-direction: row;
+	}
+	.option a:link i {
+		font-size: 140px;
 	}
 
 	iframe {
@@ -156,6 +165,9 @@ colours:
 
 	#options_container {
 		flex-direction: row;
+	}
+	.option a:link i {
+		font-size: 140px;
 	}
 
 	iframe {

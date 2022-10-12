@@ -53,6 +53,9 @@ colours:
 	iframe {
 		width: 100%;
 	}
+	.option a:link i {
+		font-size: 100px;
+	}
 }
 
 /* Small devices (phones) */
@@ -85,6 +88,9 @@ colours:
 
 	iframe {
 		width: 90%;
+	}
+	.option a:link i {
+		font-size: 100px;
 	}
 }
  
@@ -119,6 +125,9 @@ colours:
 
 	#options_container {
 		flex-direction: row;
+	}
+	.option a:link i {
+		font-size: 140px;
 	}
 
 	iframe {
@@ -156,6 +165,9 @@ colours:
 
 	#options_container {
 		flex-direction: row;
+	}
+	.option a:link i {
+		font-size: 140px;
 	}
 
 	iframe {
@@ -307,7 +319,7 @@ html {
 }
 
 article {
-	padding: 40px;
+	padding: 20px;
 	text-align: justify;
 	color: black;
 	background-color: #00a2ff; /* default background */
@@ -344,9 +356,8 @@ footer p {
 /* ---- BODY CONTENT ELEMENTS ---- */
 #body_section {
 	background-color: #131315;
-	margin-left: auto;
-	margin-right: auto;
 	padding: 20px;
+	margin: 20px auto 20px auto;
 }
 #body_section h3 {
 	text-align: center;

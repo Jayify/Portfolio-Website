@@ -550,13 +550,16 @@ footer p {
 	background-color: black;
 	color: white;
 	padding: 16px 20px 0px 20px;
-	font-family: 'Monaco', sans-serif;
 	width: 100%;
 }
 .body_section h3 {
 	font-family: 'IBM Plex Mono', monospace; 
 	font-size: 24px;
 	font-weight: 700;
+}
+.body_section p {
+	font-family: 'Monaco', sans-serif;
+	font-size: 16px;
 }
 .arrow {
 	display : flex;

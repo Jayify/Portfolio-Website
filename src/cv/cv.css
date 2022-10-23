@@ -49,6 +49,21 @@ colours:
 	#cv {
 		width: 100%;
 	}
+	#bottom {
+		gap: 40px;
+		row-gap: 0px;
+	}
+
+	#download {
+		font-size: 18px;
+	}
+	#updated {
+		font-size: 14px;
+	}
+
+	#download_logo {
+		margin-top: 6px;
+	}
 }
 
 /* Small devices (phones) */
@@ -77,6 +92,21 @@ colours:
 
 	#cv {
 		width: 100%;
+	}
+	#bottom {
+		gap: 60px;
+		row-gap: 0px;
+	}
+
+	#download {
+		font-size: 18px;
+	}
+	#updated {
+		font-size: 18px;
+	}
+
+	#download_logo {
+		margin-top: 6px;
 	}
 }
  
@@ -110,7 +140,20 @@ colours:
 	}
 
 	#cv {
-		width: 70vw;
+		width: 80vw;
+	}
+	#bottom {
+		gap: 100px;
+	}
+
+	#download {
+		font-size: 20px;
+	}
+	#updated {
+		font-size: 20px;
+	}
+	#download_logo {
+		margin-top: 9px;
 	}
  }
 
@@ -144,6 +187,19 @@ colours:
 
 	#cv {
 		width: 45vw;
+	}
+	#bottom {
+		gap: 7vw;
+	}
+
+	#download {
+		font-size: 20px;
+	}
+	#updated {
+		font-size: 20px;
+	}
+	#download_logo {
+		margin-top: 9px;
 	}
 }
 
@@ -345,24 +401,21 @@ footer p {
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	min-width: 200px;
 }
 
 #bottom {
 	display: flex;
 	color: white;
-	gap: 100px;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 #download {
 	display: flex;
 	flex-direction: row;
 	text-align: center;
-	font-size: 24px;
 	margin: 0;
 	gap: 10px;
-}
-#download_logo {
-	margin-top: 9px;
 }
 #download a {
 	color: white;
@@ -378,5 +431,4 @@ footer p {
 
 #updated {
 	text-decoration: none;
-	font-size: 24px;
 }

@@ -61,5 +61,6 @@ Personal Release:
 
 ## Note
 <ul>
-  <li>All pull requests prior to V2.0.0 were wiped when mirror cloning the repository.</li>
+  <li>All pull requests prior to V2.0.0 were wiped when mirror cloning the repository (can view on old repository).</li>
+  <li>All releases prior to V2.0.0 were wiped when mirror cloning the repository (can view on old repository).</li>
 </ul>

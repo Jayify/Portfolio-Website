@@ -8,7 +8,6 @@ The website was previously built for my NMIT WEB503 Assessment 2, which can be f
 
 ## Content
 This static website is designed as an IT portfolio.
-
 <br>
 
 It includes:
@@ -16,6 +15,7 @@ It includes:
   <li>Home page linking to other pages.</li>
   <li>About me page including my skills and experience.</li>
   <li>Projects page showing off recent projects.</li>
+  <li>CV page for potential employees.</li>
   <li>Contact page to form connections.</li>
   <li>Custom 404 error page.</li>
 </ul>
@@ -34,6 +34,8 @@ It includes:
 
 ## Versions
 Versions can be found on main branch commits of under the releases section.
+<br><br>
+
 Prereleases:
 <ul>
   <li>V0.1.X - Build home page</li>
@@ -52,4 +54,12 @@ Assessment Releases:
 Personal Release:
 <ul>
   <li>V2.0.X - Initial full release</li>
+  <li>V2.1.X - Add CV page</li>
+  <li>V2.2.X - Change error 404 page</li>
+</ul>
+<br>
+
+## Note
+<ul>
+  <li>All pull requests prior to V2.0.0 were wiped when mirror cloning the repository.</li>
 </ul>

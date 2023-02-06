@@ -230,7 +230,7 @@ colours:
 	.arrow a:hover {
 		font-size: 16vh;
 	}
- }
+}
 
 /* Large devices (desktops) */
 @media (min-width: 992px) {

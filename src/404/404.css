@@ -7,83 +7,70 @@
 	box-sizing: border-box;
 }
 
+/* Small devices (phones) */
+@media (max-width: 768px) {
+	h1 {font-size: 8vw;}
+	h2 {font-size: 6vw;}
+	h3 {font-size: 4vw;}
+	p {font-size: 4vw;}
+}
+ 
+/* Medium devices (tablets) */
+@media (min-width: 768px) 
+{ 
+	h1 {font-size: 6.5vw;}
+	h2 {font-size: 4.5vw;}
+	h3 {font-size: 2.5vw;}
+	p {font-size: 2.5vw;}
+}
+/* MLarge devices (computers) */
+@media (min-width: 1200px) 
+{ 
+	h1 {font-size: 5vw;}
+	h2 {font-size: 3vw;}
+	h3 {font-size: 1.3vw;}
+	p {font-size: 1.3vw;}
+}
+
+
 html {
-	background-image: url("../images/error.gif");
+	background-image: url("../images/tile.jpg");
   	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%; 
 	background-color: black;
 	margin: 0px;
 	padding: 0px;
-	opacity: 1;
 }
+
 body {
-	background-color: green;
 	margin: 0px;
 	padding: 0px;
+	height: 100%;
 }
+
 article {
-	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	font-family: 'Monaco', sans-serif;
 }
 
-/* generic text class */
-.text {
-	position: absolute;
-    text-align: center;
-	top: 50vh;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-shadow: 0px 0px 15px black;
-}
-
-#text_1 {
-    animation: fadein_1 6s;
-	animation-fill-mode: forwards;
-}
-@keyframes fadein_1 {
-    0% { opacity:0; }
-    39% { opacity:0; }
-    40% { opacity:1; }
-	99% { opacity:1; }
-	100% { opacity:0; }
-}
 h1 {
-	font-size: 8vw;
-}
-
-#text_2 {
-    animation: fadein_2 3s;
-	animation-delay: 6s;
-	animation-fill-mode: both;
-}
-@keyframes fadein_2 {
-	0% { opacity:0; }
-    1% { opacity:1; }
-	99% { opacity:1; }
-	100% { opacity:0; }
+	padding: 0;
+	margin: 0;
 }
 h2 {
-	font-size: 7vw;
-}
-
-#text_3 {
-    animation: fadein_3 1s;
-	animation-delay: 9s;
-	animation-fill-mode: both;
-}
-@keyframes fadein_3 {
-    0% { opacity:0; }
-    1% { opacity:1; }
-    100% { opacity:1; }
+	padding: 0;
+	margin: 30px 0 70px 0;
 }
 h3 {
-	font-size: 5vw;
-	padding: 0px;
-	margin: 0px;
-}
-p {
-	position: relative; 
-	font-size: 1.8vw;
+	padding: 0;
+	margin: 40px;
 }
 
 p a:link {

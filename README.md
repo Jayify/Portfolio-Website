@@ -1,6 +1,6 @@
 # Jayden Houghton's Portfolio Website.
 
-The website is currently live at -> Jayify.github.io/Portfolio-Website/
+The website is currently live at -> https://jayify.github.io/Portfolio-Website/src/home/home.html
 <br><br>
 The website was previously built for my NMIT WEB503 Assessment 2, which can be found at https://github.com/Jayden-Htn/WEB503-A2-22.
 <br><br>

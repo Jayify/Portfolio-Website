@@ -1,6 +1,6 @@
 # Jayden Houghton's Portfolio Website.
 
-The website is currently live at -> Jayify.github.io/Portfolio-Website/
+The website is currently live at -> https://jayify.github.io/Portfolio-Website/src/home/home.html
 <br><br>
 The website was previously built for my NMIT WEB503 Assessment 2, which can be found at https://github.com/Jayden-Htn/WEB503-A2-22.
 <br><br>
@@ -33,7 +33,7 @@ It includes:
 
 
 ## Versions
-Versions can be found on main branch commits of under the releases section.
+Versions can be found on main branch commits or under the releases section.
 <br><br>
 
 Prereleases:
@@ -61,5 +61,5 @@ Personal Release:
 
 ## Note
 <ul>
-  <li>All pull requests prior to V2.0.0 were wiped when mirror cloning the repository (can view on old repository).</li>
+  <li>All pull requests prior to V2.0.0 were wiped when mirror cloning the repository (can view on old repository, link at top).</li>
 </ul>

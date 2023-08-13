@@ -46,7 +46,7 @@ colours:
 		width: 100%;
 	}
 
-	#cv {
+	#cv1, #cv2 {
 		width: 100%;
 	}
 	#bottom {
@@ -90,8 +90,8 @@ colours:
 		width: 100%;
 	}
 
-	#cv {
-		width: 100%;
+	#cv1, #cv2 {
+		width: 80%;
 	}
 	#bottom {
 		gap: 60px;
@@ -136,11 +136,11 @@ colours:
 		font-size: 2px;
 	}
 	#body_section {
-		width: 80vw;
+		width: 70vw;
 	}
 
-	#cv {
-		width: 80vw;
+	#cv1, #cv2 {
+		width: 100%;
 	}
 	#bottom {
 		gap: 100px;
@@ -185,8 +185,8 @@ colours:
 		width: 70vw;
 	}
 
-	#cv {
-		width: 45vw;
+	#cv1, #cv2 {
+		width: 60%;
 	}
 	#bottom {
 		gap: 7vw;
@@ -396,12 +396,14 @@ footer p {
 	display: block;
 	overflow: auto;
 }
-#cv {
+#cv1, #cv2 {
 	display: block;
-	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	min-width: 200px;
+}
+#cv1 {
+	margin-bottom: 40px;
 }
 
 #bottom {
